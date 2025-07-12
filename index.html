@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>6 Move Chess</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>6 Move Chess</h1>
+  <div id="board" style="width: 100%; max-width: 400px; margin: auto;"></div>
+  <div style="text-align: center; margin: 10px;">
+    <button onclick="resetBoard()">Reset</button>
+    <button onclick="clearBoard()">Clear</button>
+    <button onclick="analyze()">Analyze</button>
+  </div>
+  <pre id="output" style="text-align:center;"></pre>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/1.0.0/chess.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard.min.js"></script>
+  <script src="stockfish.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+// Replace with actual Stockfish.js WASM engine from https://github.com/lichess-org/stockfish.js
